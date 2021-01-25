@@ -1,10 +1,12 @@
 <template>
   <div id="app">
     <Index/>
+     <!-- <login></login> -->
   </div>
 </template>
 <script>
 import Index from "./views/index";
+// import Login from "./views/Login"
 export default {
   name: "app",
   data() {
@@ -13,6 +15,7 @@ export default {
     };
   },
   components: {
+    // Login
     Index
   },
   }

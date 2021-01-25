@@ -8,7 +8,7 @@
           :class="{active:$route.name != 'home' || $store.state.isshow}" 
           class="header"/>
      <keep-alive exclude="detail,profile">
-     <router-view :class="{router_content: $route.name !== 'home'}"/>
+        <router-view :class="{router_content: $route.name !== 'home'}"/>
      </keep-alive>
     <Loading class="LoadingStyle" v-show="$store.state.LoadingShow"/>
     <Tab-contorle/>
@@ -24,7 +24,7 @@ import Loading from '../components/Loading/Loading'
 export default {
   name: 'index',
   components:{
-    Header,TabContorle,Footer,light,Loading
+    Header,TabContorle,Footer,light,Loading,
   },
   mounted() {
     document.onclick = (e) => {
