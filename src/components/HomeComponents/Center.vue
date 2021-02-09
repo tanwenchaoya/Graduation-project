@@ -9,12 +9,12 @@
                 <div class="side"></div>
             </div>
             <div class="text">
-                <div class="text--backing">CODELEI</div>
+                <div class="text--backing">programming</div>
                 <div class="text--left">
-                    <div class="inner">CODELEI</div>
+                    <div class="inner">programming</div>
                 </div>
                 <div class="text--right">
-                    <div class="inner">CODELEI</div>
+                    <div class="inner">programming</div>
                 </div>
             </div>
         </div>
@@ -29,10 +29,6 @@
             {{item.name}}
         </i>
     </div>
-    <div class="talk-method">
-        <i class="iconfont icon-weixin"> : x972761675</i>
-        <i class="iconfont icon-qq"> : 972761675 || <i class="iconfont icon-qq"> 前端群</i>: 700785102</i>
-    </div>
 </div>
 </template>
 <script>
@@ -41,10 +37,10 @@
     data () {
       return {
         navgation: [
-            { name:' Login',icon:'iconfont icon-touxiang', path:'/login' },
-            { name:' Article-List',icon:'iconfont icon-wenzhang', path:'/article' },
+            { name:' 登录',icon:'iconfont icon-touxiang', path:'/login' },
+            { name:' 文章',icon:'iconfont icon-wenzhang', path:'/article' },
             { name:' Demo',icon:'iconfont icon-anli', path:'/demo' },
-            { name:' LeaveMessage',icon:'iconfont icon-liuyan2', path:'/message' },
+            { name:' 留言',icon:'iconfont icon-liuyan2', path:'/message' },
             { name:' Photos',icon:'iconfont icon-xiangce', path:'/photos' },
             { name:' Github',icon:'iconfont icon-GitHub', path:'https://github.com/Acmenlei' },
         ]
